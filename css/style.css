@@ -366,3 +366,23 @@ h1, h2, h3, h4, h5 , h6{
     font-size: 14px;
     text-transform: uppercase;
 }
+
+/* Services */
+
+.services {
+    display: flex;
+}
+
+.services__item {
+    flex: 1 1 0;
+    
+    padding-left: 90px;
+    position: relative;
+}
+
+.services__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
