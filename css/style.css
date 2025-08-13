@@ -417,3 +417,23 @@ hr {
     font-size: 15px;
     color: #999;
 }
+
+/* Divices */
+
+.divices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.divices__item {
+    display: block;
+}
+
+.divices__item--iphone {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
+}
