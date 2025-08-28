@@ -126,6 +126,7 @@ hr {
 }
 
 .header__logo {
+    cursor: pointer;
     font-size: 30px;
     font-weight: 700;
     color: #fff;
@@ -211,6 +212,10 @@ hr {
     right: 24px;
     z-index: 1;
 
+}
+
+.nav__toggle:focus {
+    outline: 0;
 }
 
 .nav-toggle__item {
@@ -1465,6 +1470,11 @@ hr {
         left: 0;
 
         background-color: #eb8b8d;
+    }
+
+
+    .nav.active {
+        display: block;
     }
 
 
